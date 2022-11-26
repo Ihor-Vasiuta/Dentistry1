@@ -1,0 +1,1115 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Questrial&family=Raleway:wght@100&display=swap");
+/* line 11, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+/* line 23, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+body {
+  margin: 0;
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+/* line 31, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+main {
+  display: block;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+/* line 40, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+/* line 53, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+/* line 64, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+/* line 76, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+/* line 85, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+/* line 95, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+/* line 105, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+/* line 116, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+/* line 125, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+/* line 148, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+/* line 160, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+/* line 176, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+/* line 186, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+/* line 195, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+/* line 206, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+/* line 218, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+/* line 229, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+/* line 240, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+/* line 253, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+/* line 261, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+/* line 270, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+/* line 280, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+/* line 290, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+/* line 299, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+/* line 308, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+/* line 320, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+/* line 328, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+/* line 339, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+/* line 347, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/normalizez.scss */
+[hidden] {
+  display: none;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 5, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 10, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 13, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 17, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.main-section {
+  min-height: 800px;
+  background: #f3f3f3;
+}
+
+/* line 20, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+}
+
+/* line 27, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.main-section__dificult {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 33, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.nav-menu {
+  font-family: 'Spinnaker';
+  font-style: normal;
+}
+
+/* line 36, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 39, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 60px;
+  font-size: 20px;
+}
+
+/* line 42, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 46, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 48, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.left-wrapper img {
+  position: relative;
+  z-index: 1;
+  margin-top: -26px;
+}
+
+/* line 53, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.right-wrapper {
+  font-family: 'Manrope', sans-serif;
+  max-width: 560.95px;
+  min-height: 600px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 63, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.right-wrapper__text1 {
+  max-width: 682px;
+  min-height: 205px;
+  font-style: normal;
+  font-weight: 241;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+/* line 71, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.description-exp {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 74, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.exp {
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  width: 329px;
+  background: rgba(77, 77, 77, 0.63);
+  border-radius: 40px;
+}
+
+/* line 85, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.exp__max {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+/* line 89, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.title {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+
+/* line 97, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.buttons {
+  border-bottom: 1px solid #2e2e2e;
+  margin: auto;
+  width: 400px;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* line 106, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.buttons__main-btn {
+  font-family: 'Quicksand';
+  font-size: 23px;
+  width: 170px;
+  height: 65px;
+  background: rgba(236, 83, 86, 0.76);
+  box-shadow: 0px 14px 10px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  border: none;
+}
+
+/* line 126, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.bob {
+  margin-right: none;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25));
+  transform: rotate(-0.2deg);
+  width: 350px;
+  height: 70px;
+  background-color: #727272;
+  transform: skew(-20deg);
+}
+
+/* line 137, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.bob__Max-Usyk {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* line 141, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.part0 {
+  margin-left: 85px;
+}
+
+/* line 143, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.part0__part1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 148, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.boom {
+  margin-top: 10px;
+  width: 395px;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/* line 164, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.second-section {
+  font-family: 'Manrope', sans-serif;
+  background-color: #ffffff;
+  min-height: 800px;
+}
+
+/* line 168, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.second-section__left-container {
+  margin-top: 10px;
+  max-width: 400px;
+  min-height: 500px;
+  border-bottom: 1px solid #000;
+}
+
+/* line 175, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.second-section__2left-text {
+  min-width: 275px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* line 181, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.knopka {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* line 185, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.karp {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 196, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.twocontainer {
+  margin-top: 30px;
+}
+
+/* line 198, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.together {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 203, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.map {
+  border-radius: 80px;
+  border: 5px solid #000;
+  max-height: 530px;
+  max-width: 600px;
+}
+
+/* line 209, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 213, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.footer {
+  font-family: 'Manrope', sans-serif;
+  height: 450px;
+  background: #373737;
+}
+
+/* line 217, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+.footertext {
+  max-width: 653px;
+  height: 430px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width: 1199px) {
+  /* line 230, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 232, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .main-section {
+    min-height: 690px;
+  }
+  /* line 234, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .Tooth {
+    width: 350px;
+  }
+  /* line 236, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .map {
+    max-width: 447px;
+  }
+  /* line 238, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .second-section {
+    min-height: 634px;
+  }
+  /* line 240, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .footertext {
+    font-size: 23px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 246, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 248, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .text1 {
+    min-width: 361px;
+  }
+  /* line 251, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .part0 {
+    margin-top: 25px;
+    margin-left: -25%;
+  }
+  /* line 254, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .Tooth {
+    margin-top: 36px;
+    position: absolute;
+    width: 280px;
+    top: -126px;
+  }
+  /* line 259, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .long-text {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 262, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .exp {
+    margin-top: 50px;
+  }
+  /* line 272, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .buttons {
+    position: relative;
+    top: -136px;
+    left: -320px;
+    max-width: 297px;
+    margin-top: 31px;
+  }
+  /* line 278, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .main-section {
+    min-height: 420px;
+  }
+  /* line 280, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .right-wrapper {
+    min-height: 525px;
+    max-width: 567.95px;
+  }
+  /* line 283, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .together {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  /* line 287, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .left2-text {
+    text-align: center;
+  }
+  /* line 289, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .boom {
+    margin-top: 49px;
+    width: 251px;
+    margin-left: 184px;
+  }
+  /* line 293, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .second-section {
+    height: 770px;
+  }
+  /* line 295, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .left-container {
+    max-width: 645px;
+    min-height: 350px;
+  }
+  /* line 298, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .map {
+    max-width: 600px;
+    height: 300px;
+  }
+  /* line 301, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .maps {
+    max-width: 100%;
+    height: 350px;
+  }
+  /* line 304, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .BlueTooth {
+    width: 0px;
+  }
+  /* line 306, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .footertext {
+    font-size: 21px;
+    text-align: center;
+  }
+  /* line 309, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .between {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 312, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .gl {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 317, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+  /* line 319, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .main-section {
+    height: 826px;
+  }
+  /* line 321, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .Tooth {
+    top: -278px;
+    width: 300px;
+    margin-top: -3px;
+    margin-left: 253px;
+  }
+  /* line 326, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .right-container {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 329, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .map {
+    max-width: 100%;
+    border-radius: 0px;
+  }
+  /* line 332, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .maps {
+    width: 100%;
+  }
+  /* line 334, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .left-container {
+    border: none;
+  }
+  /* line 336, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .knopka {
+    margin-top: 16px;
+    margin-bottom: 10px;
+  }
+  /* line 339, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .twocontainer {
+    margin-top: 0px;
+  }
+  /* line 341, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .left-wrapper {
+    height: 50px;
+  }
+  /* line 343, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .boom {
+    margin-left: 171px;
+  }
+  /* line 345, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .buttons {
+    top: 96px;
+    left: 1px;
+    max-width: 100%;
+  }
+  /* line 349, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .buttons__main-btn {
+    background: #ec5356;
+  }
+  /* line 351, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .dificult {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  /* line 355, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .textwrappers {
+    align-content: center;
+    width: 100%;
+  }
+  /* line 358, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .right-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 362, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .long-text {
+    width: 100%;
+  }
+  /* line 364, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .text {
+    width: 100%;
+  }
+  /* line 366, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .text1 {
+    font-size: 23px;
+    width: 100%;
+  }
+  /* line 369, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .exp {
+    margin-top: 21px;
+    width: 315px;
+    display: flex;
+    position: inherit;
+  }
+  /* line 374, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .description-exp {
+    justify-content: center;
+  }
+  /* line 376, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 40%;
+    height: 100vh;
+    background: #2d2d2dfc;
+    z-index: 20;
+    transition: 0.6s all;
+  }
+  /* line 385, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  /* line 390, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .nav-menu__list-item {
+    color: #ffffff;
+    margin-right: 0;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+  }
+  /* line 395, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: absolute;
+    top: 26px;
+    right: 30px;
+    height: 14px;
+    z-index: 30;
+  }
+  /* line 402, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .hamburger span {
+    height: 2.4px;
+    width: 100%;
+    display: block;
+    background: #000;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 409, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 412, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 414, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 416, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 418, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 420, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .nav-menu_active {
+    right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 426, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+  /* line 428, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .logo2 {
+    width: 191px;
+  }
+  /* line 430, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .title {
+    font-size: 26px;
+  }
+  /* line 432, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .text1 {
+    min-width: 300px;
+    font-size: 22.3px;
+  }
+  /* line 435, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .left2-text {
+    width: 100%;
+    font-size: 22.3px;
+  }
+  /* line 438, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .main-section {
+    min-height: 991px;
+    top: -190px;
+  }
+  /* line 441, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .buttons {
+    top: 261px;
+    max-width: 93%;
+  }
+  /* line 444, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .part0 {
+    margin: 0;
+  }
+  /* line 446, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .boom {
+    font-size: 21.5px;
+    position: relative;
+    top: 258px;
+    margin-left: 0;
+    width: 90%;
+    justify-content: end;
+  }
+  /* line 455, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .left-wrapper img {
+    margin-top: 38px;
+  }
+  /* line 457, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .Tooth {
+    margin-left: 0;
+    width: 282px;
+    left: -3px;
+  }
+  /* line 462, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .hamburger {
+    right: 6px;
+  }
+  /* line 464, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .second-section {
+    height: 100%;
+  }
+  /* line 466, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .knopka {
+    font-size: 22px;
+    width: 143px;
+  }
+  /* line 469, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .footer {
+    font-size: 21px;
+    height: 100%;
+  }
+  /* line 472, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .footertext {
+    margin-top: 15px;
+    height: 90%;
+    width: 95%;
+  }
+}
+
+@media (max-width: 400px) {
+  /* line 477, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+  /* line 479, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .main-section {
+    min-height: 1083px;
+    top: -190px;
+  }
+  /* line 482, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .boom {
+    position: relative;
+    top: 258px;
+    right: -16px;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (max-width: 424px) {
+  /* line 489, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+  /* line 491, ../../../../../../Visual Studio/dentistry-adaptation copy/src/sass/style.sass */
+  .boom {
+    font-size: 21.5px;
+    position: relative;
+    top: 258px;
+    right: -16px;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
